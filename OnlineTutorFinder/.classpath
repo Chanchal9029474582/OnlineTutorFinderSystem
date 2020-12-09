@@ -8,13 +8,14 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -23,5 +24,17 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/postgresql-42.2.16.jre6.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="src/main/java/META-INF/lib/slf4j-simple-1.5.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
